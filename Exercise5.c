@@ -17,30 +17,30 @@ Ex:
 int i,top = -1;
 char stack[100];
 int ex5(char *testcase){
-	for (i = 0; testcase[i] != '\0';i++)
-	{
+	
+for (i = 0; testcase[i] != '\0';i++)
+{
 	if (testcase[i] == '(')
 	{
-			stack[top] = testcase;
+		stack[top] = testcase;
 	        top++;
-		}
-		else if (testcase[i] == ')')
-		{
-			if (top == -1)
-        	{
-	        	printf("invalid\n");
-		        exit(0);
+	}
+	else if (testcase[i] == ')')
+	{
+		if (top == -1)
+                {
+	        printf(" is invalid\n");
+		exit(0);
 	        }	
 	        else
 	        {		
-		        top--;
+		    top--;
 	        }
-		}
-    }
+         }
     if (top == -1)
-		printf("\nvalid\n");
-	else
-		printf("\ninvalid\n");
+	printf("\nvalid\n");
+     else
+	printf("\ninvalid\n");
 
 }
 
