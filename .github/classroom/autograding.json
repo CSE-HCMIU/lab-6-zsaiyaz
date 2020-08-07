@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Ex 1 .c",
+      "setup": "gcc Exercise1.c -o ex1c.out",
+      "run": "./ex1c.out 1987",
+      "input": "",
+      "output": "one thousand nine hundred eighty seven",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 1 .cpp",
+      "setup": "g++ -std=c++11 Exercise1.cpp -o ex1cpp.out",
+      "run": "./ex1cpp.out 1987",
+      "input": "",
+      "output": "one thousand nine hundred eighty seven",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 2 .c",
+      "setup": "gcc Exercise2.c -o ex2c.out",
+      "run": "./ex2c.out 3 zero two three",
+      "input": "",
+      "output": "three two zero",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 2 .cpp",
+      "setup": "g++ -std=c++11 Exercise2.cpp -o ex2cpp.out",
+      "run": "./ex2cpp.out 3 zero two three",
+      "input": "",
+      "output": "three two zero",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 3 .c",
+      "setup": "gcc Exercise3.c -o ex3c.out",
+      "run": "./ex3c.out",
+      "input": "",
+      "output": "a string",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 3 .cpp",
+      "setup": "g++ -std=c++11 Exercise3.cpp -o ex3cpp.out",
+      "run": "./ex3cpp.out",
+      "input": "",
+      "output": "a string",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 4 .c",
+      "setup": "gcc Exercise4.c -o ex4c.out",
+      "run": "./ex4c.out",
+      "input": "",
+      "output": "this is an unformatted string",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 4 .cpp",
+      "setup": "g++ -std=c++11 Exercise4.cpp -o ex4cpp.out",
+      "run": "./ex4cpp.out",
+      "input": "",
+      "output": "this is an unformatted string",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 5 .c",
+      "setup": "gcc Exercise5.c -o ex5c.out",
+      "run": "./ex5c.out",
+      "input": "",
+      "output": "validinvalid",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Ex 5 .cpp",
+      "setup": "g++ -std=c++11 Exercise5.cpp -o ex5cpp.out",
+      "run": "./ex5cpp.out",
+      "input": "",
+      "output": "validinvalid",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
