@@ -103,7 +103,7 @@ int ex1(int testcase){
 }
 	
 int main(int argc, char *argv[]) {
-	int testcase = 1234; //atoi(argv[1]);
+	int testcase = atoi(argv[1]);
 	ex1(testcase);
 	return 0;
 }
