@@ -12,9 +12,35 @@ Ex:
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 
 int ex5(char *testcase){
-	//your codes here
+		for (i = 0; testcase[i] != '\0';i++)
+	{
+		if (testcase[i] == '(')
+		{
+			stack[top] = testcase;
+	        top++;
+		}
+		else if (testcase[i] == ')')
+		{
+			if (top == -1)
+        	{
+	        	printf(" is invalid\n");
+		        exit(0);
+	        }	
+	        else
+	        {		
+		        top--;
+	        }
+		}
+    }
+    if (top == -1)
+		printf("\nvalid\n");
+	else
+		printf("\ninvalid\n");
+
 }
 
 int main(int argc, char *argv[]) {
