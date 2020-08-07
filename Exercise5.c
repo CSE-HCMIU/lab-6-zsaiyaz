@@ -29,7 +29,7 @@ for (i = 0; testcase[i] != '\0';i++)
 	{
 		if (top == -1)
                 {
-	        printf(" is invalid\n");
+	        printf("invalid\n");
 		exit(0);
 	        }	
 	        else
@@ -42,6 +42,7 @@ for (i = 0; testcase[i] != '\0';i++)
      else
 	printf("\ninvalid\n");
 
+}
 }
 
 int main(int argc, char *argv[]) {
