@@ -14,7 +14,8 @@ Ex:
 #include <stdlib.h>
 #include <string.h>
 
-
+int i,top = -1;
+char stack[100];
 int ex5(char *testcase){
 		for (i = 0; testcase[i] != '\0';i++)
 	{
