@@ -34,7 +34,7 @@ int ex4(char *testcase){
  
    blank[d] = '\0';
  
-   printf("testcase after removing blanks\n%s\n", blank);
+   printf("%s\n", blank);
 }
 
 int main(int argc, char *argv[]) {
